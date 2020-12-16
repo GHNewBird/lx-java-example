@@ -22,7 +22,7 @@ public class TestRedisLock {
 	}
 	
 	private static void play() throws Exception {
-		String lockName = "test123";
+		String lockName = "test1234";
 		DistributedRedisLock.acquire(lockName);
 		Thread.sleep(1000);
 		System.out.println(i++);
