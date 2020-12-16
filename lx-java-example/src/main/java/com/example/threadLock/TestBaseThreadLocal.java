@@ -5,7 +5,7 @@ public class TestBaseThreadLocal {
 	private static ThreadLocal<String> ll2 = new ThreadLocal<String>();
 	
 	static {
-		ll2.set("ll21231");
+		ll2.set("ll2123144444");
 	}
 	
 	private static ThreadLocal<Integer> ll = new ThreadLocal<Integer>() {
