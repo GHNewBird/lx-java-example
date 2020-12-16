@@ -12,7 +12,7 @@ public final class RBucketTest {
 		
 		SingleServerConfig singleServerConfig = config.useSingleServer();
 		singleServerConfig.setAddress("127.0.0.1:6379");
-		singleServerConfig.setPassword("123456");
+		singleServerConfig.setPassword("12345");
 		
 		RedissonClient redissonClient = Redisson.create(config);
 		
